@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- favicon -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
+
+  <!-- style -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/font.css">
+
+  <title>Alanymous site v2</title>
+</head>
+
+<body data-spy="scroll" data-target="#menu" data-offset="65">
+  <!-- navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- tombol -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand philosopher">Alanymous</a>
+      </div>
+      <!-- target tombol -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#skill">Kemampuan</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+
+
+  <!-- jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 sambutan">
+          <h1 class="philosopher">Selamat Datang</h1>
+          <h2 class="philosopher">di Website Portofolio <br>Alanymous</h2>
+          <a href="#modalCv" class="btn btn-primary" data-toggle="modal">Lihat CV saya</a>
+          <a href="list_portofolio.html" class="btn btn-info">Lihat portofolio</a>
+
+          <!-- modalCV -->
+          <div class="modal fade" id="modalCv" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header text-left">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title philosopher" id="myModalLabel">Curriculum Vitae</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="thumbnail">
+                    <img src="img/cv_hafid.jpg" alt="CV saya">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="img/cv_hafid_maulana_k.pdf" class="btn btn-primary">Print PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- akhir modalCV -->
+        </div>
+        <div class="col-md-6 flat-web text-center">
+          <img src="img/flat_web_min.png" alt="flat_web_min">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir jumbotron -->
+
+
+
+  <!-- tentang -->
+  <div id="tentang" class="tentang container-fluid">
+    <div class="row">
+      <div class="col-md-6 avatar text-center">
+        <img src="img/alan-body.png" alt="alan-body">
+      </div>
+
+      <div class="col-md-6 tentangku">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="philosopher">Tentang Diri Saya</h3>
+          </div>
+          <div class="panel-body">
+            <h4 class="philosopher">Halo! Salam kenal</h4>
+            <p>Perkenalkan saya Alanymous, nama lengkap saya Hafid Maulana Kusaeni. Saya seorang.... entahlah, yang
+              jelas saya bisa design website(UI) dan bikin website, walaupun cuman HTML5, CSS3, dan sedikit Javascript.
+            </p>
+            <p>
+              Saya berpengalaman menggunakan Software Design seperti: Adobe Photoshop, Adobe Illustrator, Adobe XD,
+              sedikit Corel Draw, Sedikit Inkscape(masih lanjut belajar), dan beberapa software lainnya yang sempet saya
+              coba seperti Gimp, Gravit Designer, dan Affinity Designer. Sekarang sih lebih dominan ke Ps, Ai, sama Xd.
+            </p>
+            <p>Saya juga bisa design Logo, Poster, Brosur, Kartu Ucapan, dll.Saya suka bikin gambar-gambar dengan CSS
+              terus dikasih animasi. Sampai saat ini saya belajar 2 materi yaitu: Design & Coding secara otodidak
+              via yutub(gratis tanpa harus bayar mentor wkwkwww).</p>
+          </div>
+        </div>
+        <!-- <a href="#profilLebih" class="btn btn-primary" data-toggle="modal">Lihat Profil Lengkap Saya</a> -->
+        <!-- modal profil -->
+        <div class="modal fade" id="profilLebih" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-left">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title philosopher" id="myModalLabel">Who AM I Actually</h4>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quod dignissimos voluptates
+                  tempore sunt iure, dolore magnam delectus laborum aliquam quibusdam itaque hic necessitatibus, libero
+                  rerum. Amet veniam, aut eveniet, inventore voluptates delectus ullam reprehenderit consectetur enim,
+                  iusto cumque ea?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- akhir modal profil -->
+      </div>
+    </div>
+  </div>
+  <!-- akhir tentang -->
+
+
+
+  <!-- skill -->
+  <div id="skill" class="skill container-fluid">
+    <div class="row">
+      <div class="col-md-6 kemampuan">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="philosopher">Kemampuan Saya</h3>
+          </div>
+          <div class="panel-body proses-bar">
+            <h4>HTML5</h4>
+            <div class="progress">
+              <div class="progress-bar html5" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                aria-valuemax="100" style="width: 65%;">
+                Capable
+              </div>
+            </div>
+            <h4>CSS3</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                style="width: 60%;">
+                Capable
+              </div>
+            </div>
+            <h4>Javascript</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"
+                style="width: 30%;">
+                Need to learn more
+              </div>
+            </div>
+            <h4>Adobe Photoshop</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                style="width: 55%;">
+                Good
+              </div>
+            </div>
+            <h4>Adobe Illustrator</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"
+                style="width: 55%;">
+                Good
+              </div>
+            </div>
+            <h4>Adobe XD</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                style="width: 60%;">
+                Good
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 skill-ilustrasi">
+        <div class="panel panel-info">
+          <img src="img/skill.png" alt="skill sila">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir skill -->
+
+
+
+  <!-- hobi -->
+  <div class="container hobi">
+    <a class="btn btn-primary philosopher" role="button" data-toggle="collapse" href="#collapseExample"
+      aria-expanded="false" aria-controls="collapseExample">
+      Hobi
+    </a>
+
+    <div class="collapse myhobby text-center" id="collapseExample">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-3 ls-hobi">
+          <img src="img/buku.png" alt="">
+          <label class="philosopher text-center">Baca-baca</label>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 ls-hobi">
+          <img src="img/movie.png" alt="">
+          <label class="philosopher text-center">Streaming</label>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 ls-hobi">
+          <img src="img/design.png" alt="">
+          <label class="philosopher text-center">NgeDesign</label>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 ls-hobi">
+          <img src="img/coding.png" alt="">
+          <label class="philosopher text-center">Ngoding</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir hobi -->
+
+
+
+  <!-- portofolio -->
+  <div id="portofolio" class="portofolio container-fluid">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="philosopher">Portofolio Saya</h3>
+        <p>Berikut adalah beberapa hasil karya saya :</p>
+      </div>
+      <div class="panel-body">
+
+        <!-- carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- indikator dot -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          </ol>
+
+          <!-- wrap utuk slide -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="portofolio/ps/wall/alanymous_wall2.jpg" alt="...">
+            </div>
+            <div class="item">
+              <img src="img/xd/Landing Page.jpg" alt="...">
+            </div>
+            <div class="item">
+              <img src="img/xd/landing Page2.jpg" alt="...">
+            </div>
+            <div class="item">
+              <img src="portofolio/ps/wall/12_mia_5_wall.jpg" alt="...">
+            </div>
+            <div class="item">
+              <img src="portofolio/ps/wall/alanymous_wall3.jpg" alt="...">
+            </div>
+          </div>
+
+          <!-- kontrol carousel-->
+          <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a> -->
+        </div>
+        <!-- akhir carousel -->
+
+        <br>
+
+        <!--area  thumnails -->
+        <!-- thumbnails -->
+        <div class="row thumbnails">
+          <!-- Modal thumbnail 1-->
+          <!-- gambar 1 -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <a class="thumbnail philosopher" data-toggle="modal" data-target="#overvlow1">
+              <img src="img/ps/idulfitri2.1.jpg" alt="">
+            </a>
+          </div>
+          <!-- overvlow 1 -->
+          <div class="modal fade" id="overvlow1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <div class="thumbnail">
+                    <img src="img/ps/idulfitri2.1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- Akhir modal 1-->
+
+          <!-- Modal thumbnail 2-->
+          <!-- gambar 2 -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <a class="thumbnail philosopher" data-toggle="modal" data-target="#overvlow2">
+              <img src="img/ps/nevrend.jpg" alt="">
+            </a>
+          </div>
+          <!-- overvlow 2 -->
+          <div class="modal fade" id="overvlow2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <div class="thumbnail">
+                    <img src="img/ps/nevrend.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- Akhir modal 2-->
+
+          <!-- Modal thumbnail 3-->
+          <!-- gambar 3 -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <a class="thumbnail philosopher" data-toggle="modal" data-target="#overvlow3">
+              <img src="img/ps/nichijou3.jpg" alt="">
+            </a>
+          </div>
+          <!-- overvlow 3 -->
+          <div class="modal fade" id="overvlow3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <div class="thumbnail">
+                    <img src="img/ps/nichijou3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- Akhir modal 3-->
+
+          <!-- Modal thumbnail 4-->
+          <!-- gambar 4 -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <a class="thumbnail philosopher" data-toggle="modal" data-target="#overvlow4">
+              <img src="img/ps/logo kelas 12.jpg" alt="">
+            </a>
+          </div>
+          <!-- overvlow 4 -->
+          <div class="modal fade" id="overvlow4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <div class="thumbnail">
+                    <img src="img/ps/logo kelas 12.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- Akhir modal 4-->
+
+          <!-- Modal thumbnail 5-->
+          <!-- gambar 5 -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <a class="thumbnail philosopher" data-toggle="modal" data-target="#overvlow5">
+              <img src="img/ai/Asset2-100.jpg" alt="">
+            </a>
+          </div>
+          <!-- overvlow 5 -->
+          <div class="modal fade" id="overvlow5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <div class="thumbnail">
+                    <img src="img/ai/Asset2-100.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- Akhir modal 5-->
+
+          <!-- Modal thumbnail 6-->
+          <!-- gambar 6 -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <a class="thumbnail philosopher" data-toggle="modal" data-target="#overvlow6">
+              <img src="img/ai/name-1.png" alt="">
+            </a>
+          </div>
+          <!-- overvlow 6 -->
+          <div class="modal fade" id="overvlow6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <div class="thumbnail">
+                    <img src="img/ai/name-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- Akhir modal 6-->
+
+        </div> <!-- akhir thumbnails -->
+        <!-- akhir thumbnanil -->
+      </div>
+      <div class="panel-footer">
+        <span class="philosopher">Lihat lebih banyak karya : <a href="list_portofolio.html"
+            class="btn btn-primary">Disini</a></span>
+      </div>
+    </div>
+  </div>
+  <!-- akhir portofolio -->
+
+
+
+  <!-- kontak -->
+  <div id="kontak" class="kontak container-fluid">
+    <div class="panel panel-primary">
+      <div class="panel-heading text-center">
+        <h3 class="philosopher">Kontak Saya</h3>
+      </div>
+      <div class="panel-body text-center">
+        <img src="img/contact.png" alt="kontak ilustrasi">
+      </div>
+      <div class="panel-footer text-center">
+        <div class="sosmed">
+          <a href="https://www.facebook.com/alanymous00/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/alanymous00/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir kontak -->
+
+
+
+  <!-- footer -->
+  <footer class="footer text-center container-fluid">
+    <div class="row">
+      <!-- Alamat -->
+      <div class="col-md-4">
+        <h4 class="text-uppercase philosopher">Alamat</h4>
+        <p>Dsn.Glingsem, Ds.Tanjungkenongo,
+          <br>Kec.Pacet, Kab.Mojokerto, Jawa Timur, Indonesia.</p>
+      </div>
+      <!-- Lokasi -->
+      <div class="col-md-4">
+        <h4 class="text-uppercase philosopher">Lokasi</h4>
+        <p>Jln.Tirtowening KM 4, RT 01/RW 001,
+          <br> Pacet 61374, Mojokerto</p>
+      </div>
+      <!-- Kontak -->
+      <div class="col-md-4">
+        <h4 class="text-uppercase philosopher">Kontak</h4>
+        <p>Telp : 0855-768-9397
+          <br>Email : sialan564@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+  <!-- copyright -->
+  <section class="copyright text-center">
+    <p>&copy;Copyright Alan Maulana Sites 2019 | Design with confused</p>
+  </section>
+  <!-- akhir footer -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- script -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/fontawsome.v5.0.8.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <!-- akhir script -->
+</body>
+
+</html>

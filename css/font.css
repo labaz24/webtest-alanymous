@@ -1,0 +1,9 @@
+.philosopher {
+    font-family: 'philosopher';
+}
+
+/* philosopher */
+@font-face {
+    font-family: 'philosopher';
+    src: url(../fonts_lokal/Philosopher-Regular.ttf);
+}

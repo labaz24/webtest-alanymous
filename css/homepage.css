@@ -1,0 +1,263 @@
+body {
+    margin-top: 60px;
+}
+
+.panel {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+
+/* navbar */
+.navbar {
+    background: #337ab7;
+    padding: 5px;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+}
+.navbar-brand {
+    font-size: 22px;
+}
+.navbar-brand:hover {
+    color: #d1d1d1 !important;
+}
+.navbar-brand,
+.nav li a {
+    color: #fdfdfd !important
+}
+.nav li:hover a,
+.active a{
+    background: #286090 !important;
+    border-radius: 10px;
+}
+/* saat responsif */
+.navbar-header button,
+.navbar-toggle {
+    background: #337ab7 !important;
+}
+.navbar-toggle:hover {
+    background: #286090 !important;
+}
+.navbar-toggle:active {
+    background: #21537e !important;
+}
+.navbar-toggle .icon-bar {
+    background: #fdfdfd !important;
+}
+
+
+
+/* jumbotron */
+.jumbotron {
+    margin-top: -20px;
+    background: linear-gradient(45deg, #7590e0,#d6e0ff);
+    position: relative;
+    height: 120vh;
+}
+.jumbotron::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 13rem;
+    background: url(../img/leleh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+.sambutan {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fdfdfd;
+}
+.sambutan h1 {
+    font-size: 6rem;
+}
+.sambutan h2 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.flat-web img {
+    max-width: 100%;
+}
+#modalCv {
+    color: #555;
+}
+
+
+
+/* tentang */
+.avatar {
+    background-color: #555; 
+    overflow: hidden;
+    height: 500px;
+    border-radius: 5px;
+    
+}
+.avatar img {
+    width: 25rem;
+    margin-top: 50px;
+    filter: drop-shadow(15px 12px 20px rgba(0, 0, 0, .3));
+}
+.tentang .row {
+    margin: auto;
+}
+.tentangku {
+    margin-top: 20px;
+}
+
+
+
+/* kemampuan */
+.skill {
+    margin-top: 50px;
+}
+.skill-ilustrasi {
+    position: relative;
+    text-align: center;
+}
+.skill-ilustrasi .panel{
+    overflow: hidden;
+    padding: 10px;
+}
+.skill-ilustrasi .panel-info {
+    min-height: 450px;
+}
+.skill-ilustrasi img {
+    width: 100%;
+    filter: drop-shadow(8px 5px 10px rgba(0, 0, 0, .3));
+}
+
+
+
+
+/* hobi */
+.hobi {
+    margin-top: 10px;
+}
+.hobi a {
+    font-size: 20px;
+    width: 100%;
+}
+.myhobby img {
+    max-width: 50%;
+    filter: drop-shadow(15px 12px 20px rgba(0, 0, 0, .3));
+}
+.ls-hobi img{
+    width: 10rem;
+}
+.ls-hobi .philosopher.text-center {
+    font-size: 12px;
+}
+
+
+
+/* portofolio */
+.portofolio {
+    margin-top: 20px;
+}
+.carousel-indicators li {
+    filter: drop-shadow(0 0 5px rgba(0,0,0,.5));
+}
+
+
+
+/* kontak */
+.kontak {
+    margin-top: 50px;
+}
+.kontak img {
+    max-width: 80%;
+}
+.sosmed a {
+    font-size: 3em;
+    padding: 20px;
+}
+.sosmed a:hover {
+    opacity: 0.5;
+}
+.sosmed a .fa-facebook {
+    color: #3b5998 !important;
+}
+
+.sosmed a .fa-instagram {
+    color: #517fa4 !important;
+}
+
+.sosmed a .fa-whatsapp {
+    color: #34a525 !important;
+}
+.sosmed a .fa-github {
+    color: #555 !important;
+}
+
+
+
+
+/* footer */
+footer {
+    background: #286090;
+    color: #d1d1d1;
+    padding: 30px;
+}
+footer .col-md-4 {
+    margin-top: 40px;
+}
+footer h4 {
+    border-bottom: 2px solid #d1d1d1;
+}
+
+section.copyright p{
+    padding: 10px;
+    background: #123174;
+    margin-bottom: -10px;
+    color: #d1d1d1;
+}
+
+
+
+
+
+/* Versi dekstop */
+@media (min-width: 992px) {
+    /* jumbotron */
+    .jumbotron {
+        height: 80vh;
+        overflow: hidden;
+    }
+    .jumbotron::before {
+        height: 35vh;
+    }
+    .sambutan {
+        text-align: left;
+    }
+
+    /* tentang */
+    .tentangku {
+        margin-top: 0;
+    }
+
+    /* kemampuan */
+    .skill-ilustrasi img {
+        margin-top: 80px;
+        width: 80%;
+    }
+
+    /* hobi */
+    .ls-hobi img{
+        width: 14rem;
+    }
+    .ls-hobi .philosopher.text-center {
+        font-size: 14px;
+    }
+
+    /* portofolio */
+    .portofolio {
+        margin-top: 40px;
+    }
+
+    /* footer */
+    footer .col-md-4 {
+        margin-top: 0;
+    }
+}
+

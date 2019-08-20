@@ -1,0 +1,84 @@
+/* navbar */
+.in,
+.navbar-form,
+.navbar-default {
+    border: none !important;
+    border-radius: 0 !important;
+}
+.navbar {
+    background: #337ab7;
+    padding: 5px;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+}
+.navbar-brand {
+    font-size: 22px;
+}
+.navbar-brand:hover {
+    color: #d1d1d1 !important;
+}
+.navbar-brand,
+.navbar-right a {
+    color: #fdfdfd !important
+}
+.nav li:hover a,
+.active a{
+    background: #286090 !important;
+}
+.navbar-right a {
+    border: 1px solid #286090;
+    border-radius: 10px;
+}
+/* saat responsif */
+.navbar-header button,
+.navbar-toggle {
+    background: #337ab7 !important;
+}
+.navbar-toggle:hover {
+    background: #286090 !important;
+}
+.navbar-toggle .icon-bar {
+    background: #fdfdfd !important;
+}
+
+
+/* table list */
+th {
+    padding: 15px !important;
+}
+.no {
+    width: 20px;
+    text-align: center;
+}
+.preview {
+    width: 40rem;
+}
+
+/* sosmed footer */
+.sosmed a {
+    font-size: 2em;
+    padding: 20px;
+}
+.sosmed a:hover {
+    opacity: 0.5;
+}
+.sosmed a .fa-facebook {
+    color: #3b5998 !important;
+}
+
+.sosmed a .fa-instagram {
+    color: #517fa4 !important;
+}
+
+.sosmed a .fa-whatsapp {
+    color: #34a525 !important;
+}
+
+/* footer */
+footer {
+    background: #286090;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #fdfdfd; 
+}

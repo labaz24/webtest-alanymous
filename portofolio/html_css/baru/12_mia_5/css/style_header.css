@@ -1,0 +1,212 @@
+/* font */
+@font-face {
+    font-family: "Philosopher";
+    src: url(../../../../font/Philosopher-Regular.ttf);
+}
+
+
+/* container */
+.kontainer {
+    width: 1200px;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/* navbar */
+nav div{
+    float: left;
+    padding: 20px;
+}
+
+nav .judul {
+    margin-right: 550px;
+    font-family: "Philosopher";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+nav div:hover a {
+    transition: .3s;    
+    color: #fff;
+}
+
+nav div:hover a.menu1 {
+    background: #3A97D7;
+}
+nav div:hover a.menu2 {
+    background: #E34D41;
+}
+nav div:hover a.menu3 {
+    background: #48c229;
+}
+nav div:hover a.menu4 {
+    background: #f5df1e;
+}
+
+
+
+
+
+/* panel */
+.panel {
+    background: #fff;
+    width: 60%;
+    margin: 50px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.panel img {
+    position: relative;
+    left: 20px;
+}
+
+.panel::before {
+    content: "";
+    width: 400px;
+    height: 500px;
+    background-color: #E34D41;
+    position: absolute;
+    transform: rotate(15deg);
+    right: -20px;
+    top: -80px;
+}
+
+.panel::after {
+    content: "T-MASCFIVE"; 
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    font-family: "Philosopher";
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffd2ce;
+}
+
+.panel p {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    font-family: "Philosopher";
+    font-size: 16px;
+    color: #ffd2ce;
+}
+
+.tombol {
+    position: absolute;
+    bottom: 20px;
+    right: 130px;
+    background: #fff;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: 1s;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tombol:hover {
+    transform: scale(1.1);    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.tombol a {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.tombol a:first-child {
+    background-color: #eee;
+    color: #E34D41;
+    padding: 20px;
+    margin-left: -20px;
+    transition: .5s;
+}
+
+.tombol a:first-child:hover {
+    background-color: #aaa;
+    color: #eee;
+}
+
+.tombol a:last-child {
+    background-color: #3A97D7;
+    color: #eee;
+    padding: 20px;
+    margin-right: -20px;
+    transition: .5s;
+}
+
+.tombol a:last-child:hover {
+    background-color: #1e72aa;
+}
+
+
+
+
+/* background hiasan */
+.shape1,.shape2,.shape3,.shape4 {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.shape1 {
+    width: 150px;
+    height: 150px;
+    background: #3A97D7;
+    top: 50px;
+    left: 220px;
+    transform: rotate(30deg);
+}
+
+.shape2 {
+    width: 200px;
+    height: 200px;
+    background: #f5df1e;
+    top: 250px;
+    right: 220px;
+    transform: rotate(-30deg);
+}
+
+.shape3 {
+    width: 50px;
+    height: 50px;
+    background: #E34D41;
+    top: 230px;
+    left: 220px;
+    transform: rotate(30deg);
+}
+
+.shape4 {
+    width: 120px;
+    height: 120px;
+    background: #48c229;
+    top: 100px; 
+    right: 150px;
+    transform: rotate(30deg);
+}
+
+.moto h1{
+    margin-top: 150px;
+    color: #E34D41;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
